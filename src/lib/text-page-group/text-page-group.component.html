@@ -1,0 +1,5 @@
+<div style="max-width: 600px; word-spacing: 7px;line-height: 30px; ">
+  <ng-container *ngFor="let groups of (groups$ | async)">
+    <fui-text-view [blocks]="groups" ></fui-text-view>
+  </ng-container>
+</div>
