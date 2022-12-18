@@ -1,11 +1,14 @@
 {
+  "name": "publications",
   "projectType": "library",
   "sourceRoot": "libs/fui/public/src",
   "prefix": "sc",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fui/public"],
+      "outputs": [
+        "coverage/libs/fui/public"
+      ],
       "options": {
         "jestConfig": "libs/fui/public/jest.config.ts",
         "passWithNoTests": true
