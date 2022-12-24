@@ -1,0 +1,9 @@
+{
+  "name": "Text Page Group",
+  "description": "Text page group component",
+  "package": "@solenopsys/uimatrix-publications",
+  "component": "TextPageGroupComponent",
+  "io": {
+
+  }
+}

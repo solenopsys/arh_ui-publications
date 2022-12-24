@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http";
 import { GroupService } from "../group.service";
 
 @Component({
-  selector: 'fui-text-page-group',
+  selector: 'ui-text-page-group',
   templateUrl: './text-page-group.component.html',
   styleUrls: ['./text-page-group.component.scss'],
   encapsulation: ViewEncapsulation.Emulated

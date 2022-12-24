@@ -1,16 +1,16 @@
 {
   "name": "publications",
   "projectType": "library",
-  "sourceRoot": "libs/fui/public/src",
-  "prefix": "sc",
+  "sourceRoot": "libs/uimatrix/public/src",
+  "prefix": "ui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/libs/fui/public"
+        "coverage/libs/uimatrix/public"
       ],
       "options": {
-        "jestConfig": "libs/fui/public/jest.config.ts",
+        "jestConfig": "libs/uimatrix/public/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -18,8 +18,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/fui/public/**/*.ts",
-          "libs/fui/public/**/*.html"
+          "libs/uimatrix/public/**/*.ts",
+          "libs/uimatrix/public/**/*.html"
         ]
       }
     }

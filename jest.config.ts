@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'fui-public',
+  displayName: 'ui-public',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../coverage/libs/fui/public',
+  coverageDirectory: '../../../coverage/libs/uimatrix/public',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
