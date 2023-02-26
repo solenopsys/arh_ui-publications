@@ -1,5 +1,5 @@
 {
-  "name": "publications",
+  "name": "ui-publications",
   "projectType": "library",
   "sourceRoot": "libs/uimatrix/public/src",
   "prefix": "ui",

@@ -1,6 +1,6 @@
 import { Component, Injectable, OnInit, ViewEncapsulation } from "@angular/core";
 import { ActivatedRoute, ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from "@angular/router";
-import { ContentNode } from "@solenopsys/lib-dgraph";
+import { ContentNode } from "@solenopsys/fl-dgraph";
 import { firstValueFrom, map } from "rxjs";
 import { HttpClient } from "@angular/common/http";
 import { GroupService } from "../group.service";
