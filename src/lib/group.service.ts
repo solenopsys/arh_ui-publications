@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { MenuItemData } from "@solenopsys/uimatrix-navigate";
+import { MenuItemData } from "@solenopsys/ui-navigate";
 import { firstValueFrom, map, Observable, tap } from "rxjs";
 import { ArticleItem } from "./conf";
 import { HttpClient } from "@angular/common/http";

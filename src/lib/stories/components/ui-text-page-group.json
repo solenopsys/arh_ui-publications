@@ -1,7 +1,7 @@
 {
   "name": "Text Page Group",
   "description": "Text page group component",
-  "package": "@solenopsys/uimatrix-publications",
+  "package": "@solenopsys/ui-publications",
   "component": "TextPageGroupComponent",
   "io": {
 
