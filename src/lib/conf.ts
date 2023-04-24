@@ -1,8 +1,10 @@
-export interface ArticleItem {
-  key: string,
-  title: string,
-  articleId: string,
-  children?: ArticleItem[],
+export interface MenuIpfsItem {
+
+  key:string,
+  name: string,
   path: string
+  articles: string[],
+  children?: MenuIpfsItem[],
+
 }
 
