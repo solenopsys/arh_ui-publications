@@ -74,7 +74,7 @@ export class GroupService {
             path = path + "/" + pathFragment;
 
 
-        this.idMap[path] = tree.cid;
+        this.idMap[path+'/.'] = tree.cid;
 
 
         const children = tree["children"]?.map((child: any) => this.transform(child, path));
