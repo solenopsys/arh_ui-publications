@@ -3,6 +3,7 @@ import {ActivatedRoute, ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} fr
 import {firstValueFrom, map, Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {GroupService} from "../group.service";
+import {ContentNode} from "@solenopsys/fl-content";
 
 @Component({
     selector: 'ui-text-page-group',

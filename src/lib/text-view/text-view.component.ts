@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {ContentNode, TextNodeType} from "@solenopsys/fl-dgraph";
+import {ContentNode, ContentNodeType} from "@solenopsys/fl-content";
 
 
 @Component({
@@ -10,10 +10,7 @@ import {ContentNode, TextNodeType} from "@solenopsys/fl-dgraph";
 export class TextViewComponent   {
   @Input()
   blocks: ContentNode[] | undefined;
-  TN = TextNodeType;
-
-
-
+  TN = ContentNodeType;
 
 
   id: string | undefined;
