@@ -7,6 +7,6 @@
     "@solenopsys/ui-utils": "0.1.0"
   },
   "scripts": {
-    "build": "xs-pack"
+    "build": "ng-packagr -p xs-package.json -c ../../../../tsconfig.packages.json"
   }
 }
