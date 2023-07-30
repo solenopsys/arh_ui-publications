@@ -1,4 +1,4 @@
-export interface MenuIpfsItem {
+export type MenuIpfsItem ={
 
   key:string,
   name: string,
