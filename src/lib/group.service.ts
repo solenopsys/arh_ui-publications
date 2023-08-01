@@ -35,7 +35,14 @@ export class GroupService {
     }
 
     public urlToId(url: string): string {
-        return this.idMap[url === "/" ? "" : url];
+
+
+        let urlFixed = url === "/" ? "" : url;
+        if (!urlFixed.endsWith("/.")) {
+            urlFixed= urlFixed + "/.";
+
+        }
+        return this.idMap[urlFixed];
     }
 
     public async loadPaths(rootId: string): Promise<MenuIpfsItem> {

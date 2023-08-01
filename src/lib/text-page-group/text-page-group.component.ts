@@ -1,4 +1,4 @@
-import {Component, Injectable, OnInit, ViewEncapsulation} from "@angular/core";
+import {Component, Injectable, ViewEncapsulation} from "@angular/core";
 import {ActivatedRoute, ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} from "@angular/router";
 import {firstValueFrom, map, Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
@@ -53,19 +53,21 @@ export class TextGroupByPatchResolver implements Resolve<ContentNode[]> {
         return new Promise(resolve => {
             const currentId = this.gs.urlToId(state.url);
             console.log("currentId", currentId)
+            console.log("DATA", route.data)
 
-            const rootId = currentId ? currentId : route.data['rootId']
+
+            const rootId = currentId ? currentId :route.parent.data['ipfs']
             this.gs.loadPaths(rootId).then(r => {
 
 
                 const articles = r['articles']
 
-                const promies = []
+                const promises = []
                 for (let i = 0; i < articles.length; i++) {
-                    promies.push(firstValueFrom(this.client.get(`/dag?key=article&cid=${articles[i]}`)));
+                    promises.push(firstValueFrom(this.client.get(`/dag?key=article&cid=${articles[i]}`)));
                 }
 
-                Promise.all(promies).then((res: any) => {
+                Promise.all(promises).then((res: any) => {
                     const result = []
                     for (let i = 0; i < res.length; i++) {
                         result.push(res[i])
