@@ -1,6 +1,6 @@
 {
   "name": "@solenopsys/ui-publications",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "peerDependencies": {
     "@solenopsys/fl-content": "0.1.0",
     "@solenopsys/ui-navigate": "0.1.0",
