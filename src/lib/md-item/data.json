@@ -1,0 +1,451 @@
+{
+  "cid": "bafyreienpilu4q7xgxvwyeb6prawxju2jq6axojffv63v4744ncogem4gy",
+  "type": "root",
+  "children": [
+    {
+      "cid": "bafyreieoomwja4tm2qpdlya5oiiezlugvuasmzeg43l74fewqb4plggpim",
+      "type": "heading",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmbhakjKjkJ5DbzQBcZmVnEALWBqPnVCoZPxoSLnEBGgEm",
+          "value": "Microfunds"
+        }
+      ]
+    },
+    {
+      "cid": "bafyreicovf73gmv5ecqpreczw3vychsuw7mkz25lgbpi7r7uklybhubdn4",
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmTEfvSEsh2J9v1vvkgGey3ukN65j5W2Jn9TyheGQtEqKB",
+          "value": "Microfunds - this is a new concept of financing technological projects. It involves breaking the project into separate micropojects, each of which creates a small, self-contained product with its own intellectual property. This approach is based on the use of smart contracts and open-source code."
+        }
+      ]
+    },
+    {
+      "cid": "bafyreigbyrwukdzc3zbuoiobhuqdc254fby5gvxsd3vaj3tomuvp2flaay",
+      "type": "heading",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmQ917E7oviiYgFT7FXq1XzPxGfn4ZR5py1d7DtGNqL2dy",
+          "value": "How does it work?"
+        }
+      ]
+    },
+    {
+      "cid": "bafyreihnu4l3eeo6toydlhni35om3zgrvehsx66gpviba4zjs4ednxlj4i",
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmSPYKiQWM2Sq7axN4mvc6b3p1D8vG6XmuLDjtXQXzenJQ",
+          "value": "Let's assume you have an idea to create a new type of 3D printer based on your own technology. Here's how this process looks:"
+        }
+      ]
+    },
+    {
+      "cid": "bafyreiav7cxjs4e2734u3auwgtg6spi5ld7gbfh7twkuukksbrldcirxyy",
+      "type": "list",
+      "children": [
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "Qmbw8vqPsRgZdz9UGAZBVyZ6Qz4RPJnUUoBhZARBjGNGic",
+                  "value": "The project is broken down into individual components: motors, drivers, controllers, and various software modules."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmXTvasHBZWkoCqtXQWsAvWHEnUXUuoB8S38par37vZeCM",
+                  "value": "Components that already exist based on the Combinatorics and Converged frameworks are identified. There's no need to develop them from scratch; you can simply purchase them or order manufacturing under license."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmdsRxuvUKBeFTwjKFx6jGNJwpdjtczwzE5QEDJ5qLqZh5",
+                  "value": "Those components that need to have unique characteristics are allocated to microfunds and brought to Matrix standards to easily integrate them into other projects."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmYf4j3n55vyexjcEa8pKgqEKt76eeLLz4mzHnFpBwyR5m",
+                  "value": "Microfunds receive funding and commence development."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmdcTpZ1BBWTgEgKztZwQhzLkYrTYx6cL3L9mmeKGAcDD7",
+                  "value": "You create your project using the ready-made components from microfunds."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "bafyreihkqvr7hrjg2n255duazthhjujksfsycv3rwpid7msnvo3cq6rbhu",
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmV9nZZjitXSrJph63NMCi18DGvwmDJFNzmjMm6iTFPSPM",
+          "value": "This approach reduces risks, cuts down development time, and lowers costs because it leverages pre-existing components and standardized solutions."
+        }
+      ]
+    },
+    {
+      "cid": "bafyreihcaff47a52aiyvju7hnmfbqydlcnc5z2qtfdj3aziefg4bg67ms4",
+      "type": "heading",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmYLuKhCBjqh6ToAKKHjbWvVdT1KHCiGKLMc4XyhJZjTwZ",
+          "value": "Advantages of Financing through Microfunds:"
+        }
+      ]
+    },
+    {
+      "cid": "bafyreibvcteup4kcoab753gemojqmr7tr2uyfs62st5dwdg7rcieaymda4",
+      "type": "list",
+      "children": [
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "Qmeek5S18VbJF5CvN5GdPJKd519aVw6SzPXn85ZzUfvfGh",
+                  "value": "Substantial reduction in the risk of capital loss."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmS5RyAZRi8uUteJpbk3NGySqHQRQe2QKzsxSavd85WeDJ",
+                  "value": "Preservation of value and control in the event of the parent project's bankruptcy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmSYLdHry3etqYug4WwkajAtkPoEwJbKRjyR1QA86pmTr9",
+                  "value": "Minimal expenses when replacing the team."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmRfjsUcRLrpi6rMwzZit3mNA1chmPp7dG61UHHezVPoQT",
+                  "value": "Justified assessment of value due to the use of open-source code."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmUwtoaj12iqZgqudW9ZB8G6AQfXV94HzzyfbYatXBmTEn",
+                  "value": "Simplification of the parent project's bankruptcy process."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "bafyreiazmorplfkyf65daxjnhtywfhymu7grgxcb2rgdvcjxqd7f7pax2m",
+      "type": "heading",
+      "children": [
+        {
+          "type": "text",
+          "cid": "QmcSDuyDH3HMwBVsTvdufoD7gNPwox9kKZxyK3oKLY7Mmz",
+          "value": "Differences in Funding Startups through Microfunds and Traditional Corporations."
+        }
+      ]
+    },
+    {
+      "cid": "bafyreifpld35triuffhpjrtc3pl42m7qfpgzk24xwfi5e2vkfspszxfj7u",
+      "type": "table",
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmXLrCq21PH3YmN3WcwsuRb53RutLisHBeBbmfwRMzeUta",
+                  "value": "Traditional Corporations"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmbhakjKjkJ5DbzQBcZmVnEALWBqPnVCoZPxoSLnEBGgEm",
+                  "value": "Microfunds"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmWi1eDQkCdK3HiEpbjjQA2UUXkefYdzhrisTVQSjgV4rG",
+                  "value": "A corporation is an organization founded on groups of people. This group is structured through the internal framework of the corporation, which encompasses various resources, such as information systems and equipment."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmYeabzn8HAvCT3pk9hX8kqDkVRf9pa4kNuLpxtn84y3tg",
+                  "value": "Microfunds are based on intellectual property presented in the form of open-source code."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmPS9McUrJ5VGrWPKFvsaFYo9dLxbNYb1KrJDhpjNuXG8B",
+                  "value": "Typically, the financing of a corporation occurs through investments in commercial activities, requiring substantial amounts of money right from the start."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmTEWaQzRctvw43wfjzqf7WfXn9DWZpHu77KQ5hAt4Cpfy",
+                  "value": "When developing a complex project, it is divided into a structure of microfunds, and funding is directed straight to the microfunds, bypassing the organization. Each microfund requires small investments."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmPXwED9i3qNRjLPTFKXv68EXVYPsUTDyZetJ7XAVQQXS5",
+                  "value": "The financing occurs in stages, and there is a high risk of project failure if the corporation cannot attract the next round of investments."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmXYTLfff3ioKiJrFQdiTpqHuZjxtdyqBUhYKrHpBZf6xe",
+                  "value": "Each microfund receives 100% of the required capital at the time of the transaction, ensured by a smart contract that executes when 100% funding is reached."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmdMs9BH82zBTLfAbLC8J13259inErRGZQkAYoWFdebS4H",
+                  "value": "Financial resources are invested in the organization's structure."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmYi9M8QCUrCrXEfwHseVLMrGAzb2ZurDuLdvtG5cjhXYc",
+                  "value": "Each microfund is independent of others, with the goal of creating a product that can be used by other teams and in other projects."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmSQ7h5pkfDzfDZHmCjNctBzYreaC1tAaxE6uBCGRkA8KJ",
+                  "value": "In the event of project bankruptcy, the team dissolves, and a significant portion of the created value is lost."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmcDTmbkusYLXMQADZiHcPANCiW2M5sQxLFgXL3dp6SVC7",
+                  "value": "Intellectual property is standardized for ease of use by other teams. In the case of project bankruptcy, a significant portion of the investments is preserved."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmXHtEd8dcV8bjn1seCL91TtjLEEi9qBCkrKnFtSi9E2Zh",
+                  "value": "Intellectual property can be created based on know-how or patents."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmTLzNGqpuxyyEi2inbARtf6XbQxW8SvB1QXqUi599M819",
+                  "value": "A licensing agreement for the use of intellectual property is included in the source code."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmZGurimQNDHvjPKawAQAuG2AuzveWZ4m4np6kNXdAck54",
+                  "value": "Licensing of intellectual property is carried out through the conclusion of license agreements, which is a complex and time-consuming process."
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "cid": "QmWAyjBayLiaXF1JbNdZPgpYb4mrVMqakofvX1yHAdx6us",
+                  "value": "Licensing is done through smart contracts, without the need for negotiations or even knowing who the counterparty is."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

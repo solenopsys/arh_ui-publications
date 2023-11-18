@@ -1,0 +1,51 @@
+
+
+<ng-template #MsgRef>
+    @for (item of data?.children;track $index) {
+        <ui-md-item-component [data]="item"></ui-md-item-component>
+    }
+</ng-template>
+
+@switch (data.type) {
+    @case ('paragraph') {
+        <p>
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </p>
+    }
+    @case ('text') {
+        {{ data.value }}
+    }
+    @case ('heading') {
+        <h1>
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </h1>
+    }
+    @case ('list') {
+        <ul>
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </ul>
+    }
+    @case ('listItem') {
+        <li>
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </li>
+    }
+    @case ('table') {
+        <table>
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </table>
+    }
+    @case ('tableRow') {
+        <tr style="width: 50%">
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </tr>
+    }
+    @case ('tableCell') {
+        <td>
+            <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+        </td>
+    }
+    @default {
+        <div style="color:red;"> {{ data.type }}</div>
+    }
+}

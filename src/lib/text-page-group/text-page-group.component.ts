@@ -13,73 +13,18 @@ import {ContentNode} from "@solenopsys/fl-content";
 })
 export class TextPageGroupComponent {
 
-
     public readonly groups$: Observable<ContentNode[]>
-
     constructor(private activatedroute: ActivatedRoute) {
         this.groups$ = this.activatedroute.data.pipe<ContentNode[]>(
-            map((data: any) => {
-                console.log("DATA1", data)
-                const transformed = data.groups.map((group: { items: any [] }) => {
-                        return {
-                            items: group.items.map((item: { type: string, content: string }) => {
-                                return {type: item.type, value: item.content}
-                            })
-                        }
-                    }
-                )
-                console.log("DATA2", transformed)
-                return transformed
-            })
-        )
-        ;
-    }
-
-
-}
-
-
-@Injectable({providedIn: 'root'})
-export class TextGroupByPatchResolver implements Resolve<ContentNode[]> {
-    constructor(private client: HttpClient, private gs: GroupService) {
-    }
-
-    resolve(
-        route: ActivatedRouteSnapshot,
-        state: RouterStateSnapshot
-    ): Promise<ContentNode[]> {
-
-
-        return new Promise(resolve => {
-            const currentId = this.gs.urlToId(state.url);
-            console.log("currentId", currentId)
-            console.log("DATA", route.data)
-
-
-            const rootId = currentId ? currentId :route.parent.data['ipfs']
-            this.gs.loadPaths(rootId).then(r => {
-
-
-                const articles = r['articles']
-
-                const promises = []
-                for (let i = 0; i < articles.length; i++) {
-                    promises.push(firstValueFrom(this.client.get(`/dag?key=article&cid=${articles[i]}`)));
-                }
-
-                Promise.all(promises).then((res: any) => {
-                    const result = []
-                    for (let i = 0; i < res.length; i++) {
-                        result.push(res[i])
-                    }
-                    resolve(result);
-                });
-
-
-            })
-        });
-
-
+            map((data: any) => data.groups.map(group => ({
+                items: group.items.map(item => ({
+                    type: item.type,
+                    value: item.content
+                }))
+            })))
+        );
     }
 }
+
+
 

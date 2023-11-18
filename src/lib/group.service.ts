@@ -1,7 +1,7 @@
 import {Injectable} from "@angular/core";
 import {MenuItemData} from "@solenopsys/ui-navigate";
 import {firstValueFrom, map, tap} from "rxjs";
-import {MenuIpfsItem} from "./conf";
+import {MenuIpfsItem} from "./model";
 import {HttpClient} from "@angular/common/http";
 
 
@@ -9,8 +9,6 @@ import {HttpClient} from "@angular/common/http";
     providedIn: "root"
 })
 export class GroupService {
-
-
     public menuNodes: { [key: string]: MenuIpfsItem } = {};
 
     idMap: { [key: string]: string } = {};
@@ -35,43 +33,27 @@ export class GroupService {
     }
 
     public urlToId(url: string): string {
-
-
         let urlFixed = url === "/" ? "" : url;
         if (!urlFixed.endsWith("/.")) {
             urlFixed= urlFixed + "/.";
-
         }
         return this.idMap[urlFixed];
     }
 
     public async loadPaths(rootId: string): Promise<MenuIpfsItem> {
-
         if (this.menuNodes[rootId]) {
-            console.log("ROOT EXISTS", rootId)
             return this.menuNodes[rootId];
-        } else {
-            console.log("NOT  EXISTS", rootId)
-
-
-            return new Promise((resolve) => {
-                firstValueFrom(
-                    this.httpClient.get(`/dag?key=menu&cid=${rootId}`)
-                        .pipe(map((res: any) =>
-                            this.transform(res, "")
-                        ))
-                        .pipe(tap(data => console.log("DATA", data)))
-                ).then(
-                    (node: any) => {
-
-                        this.menuNodes[rootId] = node;
-                        resolve(node);
-                    }
-                );
-            });
-
-
         }
+
+        const res = await firstValueFrom(
+            this.httpClient.get(`/dag?key=menu&cid=${rootId}`).pipe(
+                map((res: any) => this.transform(res, "")),
+                tap(data => console.log("DATA", data))
+            )
+        );
+
+        this.menuNodes[rootId] = res;
+        return res;
     }
 
 
@@ -79,13 +61,8 @@ export class GroupService {
         const pathFragment = tree["path"];
         if (pathFragment)
             path = path + "/" + pathFragment;
-
-
         this.idMap[path+'/.'] = tree.cid;
-
-
         const children = tree["children"]?.map((child: any) => this.transform(child, path));
-
         return {key: pathFragment, articles: tree["articles"], name: tree['name'], children: children, path};
     }
 

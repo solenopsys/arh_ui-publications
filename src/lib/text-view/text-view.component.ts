@@ -11,10 +11,5 @@ export class TextViewComponent   {
   @Input()
   blocks: ContentNode[] | undefined;
   TN = ContentNodeType;
-
-
   id: string | undefined;
-
-
-
 }

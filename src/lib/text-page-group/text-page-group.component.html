@@ -1,5 +1,7 @@
-<div *ngIf="(groups$ | async) as groups" style="max-width: 600px; word-spacing: 7px;line-height: 30px;  " >
-    <ng-container *ngFor="let group of groups">
-        <ui-text-view [blocks]="group.items" ></ui-text-view>
-    </ng-container>
-</div>
+@defer (when groups$) {
+    <div class="textBlockLimit">
+        @for (group of groups$ | async;track $index) {
+            <ui-text-view [blocks]="group.items"></ui-text-view>
+        }
+    </div>
+}

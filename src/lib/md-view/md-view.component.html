@@ -1,0 +1,10 @@
+<div class="textBlockLimit">
+@defer (when groups$) {
+    @for (md of (groups$ |async);track $index) {
+        @for (item of md.children;track $index) {
+            <ui-md-item-component class="ignore-css" [data]="item"></ui-md-item-component>
+        }
+    }
+}
+</div>
+
