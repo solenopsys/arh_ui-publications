@@ -10,7 +10,7 @@ import {Component, Input, ViewEncapsulation} from "@angular/core";
 export class MdItemComponent {
 
     @Input()
-    data:{type:string,children:any[],value:string}
+    data:{type:string,children:any[],value:string,params:{[key:string]:string}}
 
     constructor() {
     }

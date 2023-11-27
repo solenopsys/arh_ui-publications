@@ -1,5 +1,3 @@
-
-
 <ng-template #MsgRef>
     @for (item of data?.children;track $index) {
         <ui-md-item-component [data]="item"></ui-md-item-component>
@@ -15,10 +13,39 @@
     @case ('text') {
         {{ data.value }}
     }
-    @case ('heading') {
-        <h1>
+    @case ('strong') {
+        <b>
             <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
-        </h1>
+        </b>
+    }
+    @case ('heading') {
+
+        @switch (data.params['depth']) {
+            @case (1) {
+                <h1>
+                    <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+                </h1>
+            }
+            @case (2) {
+                <h2>
+                    <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+                </h2>
+            }
+            @case (3) {
+                <h3>
+                    <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+                </h3>
+            }
+            @case (4) {
+                <h4>
+                    <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+                </h4>
+            }
+            @default {
+                <ng-template [ngTemplateOutlet]="MsgRef"></ng-template>
+            }
+        }
+
     }
     @case ('list') {
         <ul>
